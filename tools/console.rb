@@ -6,11 +6,9 @@ end
 
 
 ###  WRITE YOUR TEST CODE HERE ###
-
-
-
-
-
+njihia = Author.new("Njihia")
+lyn = Author.new("Lyn")
+atara = Author.new("Atara")
 
 
 
