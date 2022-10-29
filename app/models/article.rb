@@ -20,4 +20,8 @@ class Article
     def magazine
         @magazine
     end
+
+    def self.all
+        @@all
+    end
 end
