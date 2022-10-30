@@ -9,7 +9,7 @@ class Article
             @title = title
             @@all << self
         else 
-            puts("Expected author and magazine to be objects, title to be a string")
+            puts "Expected author and magazine to be objects, title to be a string"
         end    
     end
 
