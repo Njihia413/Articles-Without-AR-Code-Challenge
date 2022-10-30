@@ -11,4 +11,10 @@ class Magazine
   def self.all
     @@all
   end
+
+  def contributors
+    articles_by_authors_in_this_magazine.map {|article| article.author}
+  end
+
+  
 end
